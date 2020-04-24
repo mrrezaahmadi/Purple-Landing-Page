@@ -1,0 +1,25 @@
+@use '../base/buttons';
+
+nav {
+	// border: 1px blue solid;
+	height: 60px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	.navbar__menu {
+		margin-right: 50px;
+		// border: 1px black solid;
+		display: flex;
+		align-items: center;
+		ul {
+			display: flex;
+			list-style: none;
+			justify-content: flex-end;
+			li {
+				margin: 0 10px;
+				font-weight: 200;
+				color: white;
+			}
+		}
+	}
+}

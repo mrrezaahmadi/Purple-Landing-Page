@@ -1,0 +1,596 @@
+@charset "UTF-8";
+/* Icomoon fonts */
+/* Icomoon svg icons */
+/* Poppins font variable */
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-ExtraLight.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-LightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../src/styles/fonts/poppins/Poppins-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: block;
+}
+body {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.background-oval {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  width: 50%;
+}
+
+.background-purple {
+  background: #432b99;
+  background: linear-gradient(360deg, rgba(67, 43, 153, 0.2) 0%, white 100%);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  top: 1165px;
+  border-radius: 0 0 90% 100%/20%;
+  height: 640px;
+}
+
+hr {
+  margin: 48px 0;
+  border: 0.5px #cdc2f5 solid;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../../src/styles/fonts/icomoon/icomoon.eot?ldlvgq");
+  src: url("../../src/styles/fonts/icomoon/icomoon.eot?ldlvgq#iefix") format("embedded-opentype"), url("../../src/styles/fonts/icomoon/icomoon.ttf?ldlvgq") format("truetype"), url("../../src/styles/fonts/icomoon/icomoon.woff?ldlvgq") format("woff"), url("../../src/styles/fonts/icomoon/icomoon.svg?ldlvgq#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-biohazard:before {
+  content: "";
+}
+
+.icon-bird:before {
+  content: "";
+}
+
+.icon-hand:before {
+  content: "";
+}
+
+.icon-handshake:before {
+  content: "";
+}
+
+.icon-person:before {
+  content: "";
+}
+
+.icon-playSign:before {
+  content: "";
+}
+
+.icon-send-email:before {
+  content: "";
+}
+
+.icon-tick:before {
+  content: "";
+}
+
+.icon-worldBook:before {
+  content: "";
+}
+
+.container {
+  width: 75%;
+  padding: 20px 40px;
+}
+
+.button {
+  border: 1px black solid;
+  width: 100px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.nav__btn {
+  color: white;
+  border-color: white;
+}
+
+.nav__btn--fill {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav .navbar__menu {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+nav .navbar__menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+nav .navbar__menu ul li {
+  margin: 0 10px;
+  font-weight: 200;
+  color: white;
+}
+
+.intro {
+  margin-top: 100px;
+  height: 1000px;
+}
+
+.intro--top {
+  display: flex;
+  height: 60%;
+}
+
+.intro__text {
+  padding: 50px 20px;
+  width: 50%;
+}
+
+.intro__text__title {
+  margin: 20px 0;
+  font-size: 60px;
+  line-height: 70px;
+  width: 80%;
+}
+
+.intro__text__subtitle {
+  font-size: 20px;
+  margin: 15px 0;
+  font-weight: 400;
+  text-justify: kashida;
+  width: 80%;
+}
+
+.intro__pic {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.intro__pic .pic {
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro__btn {
+  width: 180px;
+  height: 60px;
+  background-color: #432b99;
+  color: white;
+  border: none;
+  margin: 20px 0;
+}
+
+.intro--bottom {
+  height: 40%;
+}
+
+.intro__items {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intro__item {
+  height: 250px;
+  width: 250px;
+}
+
+.intro__item__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 2px #432b99 solid;
+  color: #432b99;
+  font-size: 50px;
+  border-radius: 5px;
+}
+
+.intro__item__text {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.learn {
+  height: 600px;
+  padding: 20px 0;
+  display: flex;
+}
+
+.learn__img {
+  width: 50%;
+}
+
+.learn__discription {
+  padding-top: 60px;
+  width: 50%;
+}
+
+.learn__tips {
+  margin-top: 42px;
+}
+
+.learn__tip {
+  line-height: 48px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.learn__tip .icon-tick {
+  color: #432b99;
+  font-size: 30px;
+  display: inline;
+  margin-right: 10px;
+}
+
+.learn__btns {
+  margin: 28px 0;
+  display: flex;
+}
+.learn__btns .button {
+  margin: 0;
+  color: #432b99;
+  width: 160px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+}
+.learn__btns .button .icon-playSign {
+  font-size: 42px;
+}
+
+.learn__btn--fill {
+  margin-right: 28px !important;
+  background-color: #432b99;
+  color: white !important;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.center {
+  margin: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story__title {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.story__subtitle {
+  margin: 18px 0;
+  font-size: 18px;
+}
+
+.JohnDoe__img {
+  margin: 0;
+  padding: 0;
+}
+
+.JohnDoe__title {
+  font-weight: 600;
+  font-size: 28px;
+  color: #292952;
+  margin-top: 0;
+}
+
+.JohnDoe__subtitle {
+  color: #631e91;
+  font-weight: 500;
+}
+
+.JohnDoe__quote {
+  margin-top: 16px;
+  color: #5656b3;
+  font-weight: 500;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.about__item {
+  display: flex;
+  width: 40%;
+}
+
+.about__item__icon {
+  color: #432b99;
+  font-size: 36px;
+  margin-right: 12px;
+}
+
+.about__item__title {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.about__item__subtitle {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.post__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post__item {
+  width: 30%;
+}
+
+.post__item__text {
+  margin: 12px 0;
+  width: 80%;
+}
+
+.post__item__text__title {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 12px 0;
+}
+
+.email {
+  margin: 200px 0;
+  height: 300px;
+  background-color: #230b79;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.email__des {
+  display: flex;
+  margin: 0 40px;
+}
+
+.email__des__text {
+  width: 60%;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.email__des__input {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  border: 1px white solid;
+  background-color: transparent;
+  width: 30%;
+  height: 60px;
+  border-radius: 5px;
+}
+.email__des__input input {
+  padding: 0 24px;
+  color: white;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  width: 70%;
+  height: 100%;
+}
+.email__des__input input::placeholder {
+  font-size: 24px;
+  color: white;
+}
+.email__des__input input:focus {
+  outline: transparent;
+}
+
+.email__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email__icon button {
+  background-color: transparent;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-send-email {
+  color: white;
+  font-size: 26px;
+  margin: 0 20px;
+}
+
+.shape {
+  position: relative;
+}
+
+.shape--top {
+  bottom: 10px;
+  transform: rotate(180deg);
+}
+
+.shape--bottom {
+  top: 70px;
+}
+
+footer {
+  display: flex;
+  padding: 36px 0;
+}
+
+.footer__text {
+  width: 30%;
+  font-size: 18px;
+}
+
+.footer__menu {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__menu__item span {
+  font-weight: bold;
+  font-size: 28px;
+}
+.footer__menu__item ul {
+  list-style: none;
+  margin-top: 32px;
+  margin-left: 0;
+  padding-left: 0;
+}
+.footer__menu__item ul li {
+  line-height: 28px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,56 @@
+.learn {
+	height: 600px;
+	// border: 1px yellow solid;
+	padding: 20px 0;
+	display: flex;
+}
+
+.learn__img {
+	// border: 1px red solid;
+	width: 50%;
+}
+
+.learn__discription {
+	padding-top: 60px;
+	width: 50%;
+	// border: 1px black solid;
+}
+
+.learn__tips {
+	margin-top: 42px;
+}
+
+.learn__tip {
+	line-height: 48px;
+	font-size: 22px;
+	font-weight: 500;
+	.icon-tick {
+		color: rgb(67, 43, 153);
+		font-size: 30px;
+		display: inline;
+		margin-right: 10px;
+	}
+}
+
+.learn__btns {
+	margin: 28px 0;
+	display: flex;
+	.button {
+		margin: 0;
+		color: rgb(67, 43, 153);
+		width: 160px;
+		height: 56px;
+		font-weight: 500;
+		font-size: 18px;
+		border: none;
+		.icon-playSign {
+			font-size: 42px;
+		}
+	}
+}
+
+.learn__btn--fill {
+	margin-right: 28px !important;
+	background-color: rgb(67, 43, 153);
+	color: white !important;
+}

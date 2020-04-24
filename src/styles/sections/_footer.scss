@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    padding: 36px 0;
+}
+
+.footer__text {
+    width: 30%;
+    font-size: 18px;
+}
+
+.footer__menu {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__menu__item {
+    span {
+        font-weight: bold;
+        font-size: 28px;
+    }
+    ul {
+        list-style: none;
+        margin-top: 32px;
+        margin-left: 0;
+        padding-left: 0;
+        li {
+            line-height: 28px;
+        }
+    }
+}

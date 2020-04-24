@@ -1,0 +1,45 @@
+@use './fonts';
+
+body {
+	font-family: "Poppins";
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	position: relative;
+	width: inherit;
+	height: inherit;
+	display: flex;
+	justify-content: center;
+}
+
+.background-oval {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -1;
+	width: 50%;
+}
+
+.background-purple {
+	background: rgb(67, 43, 153);
+	background: linear-gradient(
+		360deg,
+		rgba(67, 43, 153, 0.2) 0%,
+		rgba(255, 255, 255, 1) 100%
+	);
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	top: 1165px; // sum of the navabar + intro height
+	border-radius: 0 0 90% 100% / 20%;
+	height: 640px; // all the height of learn section
+}
+
+
+hr {
+	margin: 48px 0;
+	border: .5px rgb(205, 194, 245) solid;
+}
